@@ -1,0 +1,2 @@
+# echoinfo
+echoLinux用のコマンド
