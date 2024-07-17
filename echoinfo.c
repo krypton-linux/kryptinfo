@@ -51,7 +51,7 @@ int main(void)
                 system("uname -a");
                 break;
             case 5:
-                system("neofetch");
+                system("fastfetch");
                 break;
             default:
                 fputs("Unknown error!! \n",stderr);
