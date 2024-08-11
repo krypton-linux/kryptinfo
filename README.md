@@ -1,10 +1,10 @@
-# echoinfo
+# Kryptinfo
 **Easily check system information**
 
-このコマンドで１~5版を選べばdmesg、lsb_release、lspci、uname -a、neofetchが実行できます
+このコマンドで１~5版を選べばdmesg、lsb_release、lspci、uname -a、fastfetchが実行できます
 
-名前がechoinfoなのは将来公開する(予定の)~# echo linuxという自作ディストロに搭載したいからです
+名前がKryptinfoなのは将来公開する(予定の)>Krypton_という自作ディストロに搭載したいからです
 
-インストール用スクリプトは未完成で必要なものが一緒にインストールされないので注意してください。
+まだ未完成です
 
-あまりスキルがないので無駄やバグが多いかもしれません。
+初心者が作ったのでで無駄やバグが多いかもしれません。
