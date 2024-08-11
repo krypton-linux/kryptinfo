@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=echoinfo
-Exec=/usr/bin/echoinfo
-Comment=Commands to display system information
-Terminal=true
-Icon=sharedlib
-Type=Application
