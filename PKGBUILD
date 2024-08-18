@@ -19,5 +19,6 @@ build()
 
 package()
 {
-    make install
+    install -Dm744 kryptinfo -t "$pkgdir"/usr/bin
+    install -Dm744 LICENSE "$pkgdir"/usr.share/licenses/$pkgname
 }
