@@ -2,4 +2,4 @@ kryptinfo : kryptinfo.c
 	clang -Wall -o kryptinfo kryptinfo.c
 
 install : 
-	install -n /usr/bin kryptinfo
+	install -Dm744 /usr/bin kryptinfo
