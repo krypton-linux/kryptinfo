@@ -13,7 +13,7 @@ int main(void)
             sentakusi = 0;
             // 選択肢を表示
             fputs("\n\n\n",stdout);
-            printf("1:dmesg as superuser\n2:lsb_release -a\n3:lspci\n4:uname -a\n5:neofetch");
+            printf("1:dmesg as superuser\n2:lsb_release -a\n3:lspci\n4:uname -a\n5:fastfetch");
             fputs("\n",stdout);
             //プロンプトを表示
             printf("選んでください> ");
