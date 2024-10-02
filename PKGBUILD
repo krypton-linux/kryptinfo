@@ -1,4 +1,4 @@
-# Maintainer: Itsuki Wada <itkwada222@gmail.com>
+# Maintainer: Itsuki Wada <175463719+Itsuki0222@users.noreply.github.com>
 
 pkgname=kryptinfo
 pkgver=20240820
