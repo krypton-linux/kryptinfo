@@ -4,13 +4,13 @@
 
 int main(void)
 {
-    int intans;
-    int sentakusi; // システムの情報を表示するプログラム
+    int intanswer;
+    int options; // システムの情報を表示するプログラム
     char answer[1024]; // コマンドを選ぶ選択肢 char配列なのは数字以外の文字が入力されてもバグを起こさないようにするため
     char yesno[1024]; // こちらは最後にもう一度選ぶかどうかをyかnで答える
     do {
         do {
-            sentakusi = 0;
+            options = 0;
             // 選択肢を表示
             fputs("\n\n\n",stdout);
             printf("1:dmesg as superuser\n2:lsb_release -a\n3:lspci\n4:uname -a\n5:fastfetch");
@@ -25,12 +25,12 @@ int main(void)
                 ; // Do nothing
             } else {
                 printf("1~5以外を指定しています\n");
-                sentakusi = 1;
+                options = 1;
             }
-            } while(sentakusi != 0);
-        intans = atoi(answer);
+            } while(options != 0);
+        intanswer = atoi(answer);
 
-        switch(intans) {
+        switch(intanswer) {
             case 1:
                 system("sudo dmesg");
                 break;
