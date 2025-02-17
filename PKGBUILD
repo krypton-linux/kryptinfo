@@ -9,7 +9,7 @@ arch=('x86_64')
 url='https://github.com/Itsuki0222/Kryptinfo'
 license=('MIT')
 depends=('lsb-release' 'fastfetch')
-makedepends=('clang++')
+makedepends=('clang')
 source=("https://raw.githubusercontent.com/Itsuki0222/Kryptinfo/main/kryptinfo.tar.gz")
 md5sums=('SKIP')
 
