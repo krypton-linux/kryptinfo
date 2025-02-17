@@ -1,7 +1,7 @@
 # Maintainer: Itsuki Wada <175463719+Itsuki0222@users.noreply.github.com>
 
 pkgname=kryptinfo
-pkgver=20240820
+pkgver=20250217
 pkgrel=1
 pkgdesc='Easily Check System Information'
 arch=('x86_64')
