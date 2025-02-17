@@ -1,4 +1,4 @@
-CXX = clang
+CXX = clang++
 CXXFLAGS = -Wall -O2
 
 kryptinfo: kryptinfo.cpp
