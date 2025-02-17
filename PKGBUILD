@@ -1,4 +1,5 @@
 # Maintainer: Itsuki Wada <175463719+Itsuki0222@users.noreply.github.com>
+# Contributor: nekogakure < >
 
 pkgname=kryptinfo
 pkgver=20250217
@@ -8,7 +9,7 @@ arch=('x86_64')
 url='https://github.com/Itsuki0222/Kryptinfo'
 license=('MIT')
 depends=('lsb-release' 'fastfetch')
-makedepends=('clang')
+makedepends=('clang++')
 source=("https://raw.githubusercontent.com/Itsuki0222/Kryptinfo/main/kryptinfo.tar.gz")
 md5sums=('SKIP')
 
