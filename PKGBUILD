@@ -6,16 +6,16 @@ pkgver=20250217
 pkgrel=1
 pkgdesc='Easily Check System Information'
 arch=('x86_64')
-url='https://github.com/Itsuki0222/Kryptinfo'
+url='https://github.com/krypton-linux/Kryptinfo'
 license=('MIT')
 depends=('lsb-release' 'fastfetch')
 makedepends=('clang')
-source=("https://raw.githubusercontent.com/Itsuki0222/Kryptinfo/main/kryptinfo.tar.gz")
+source=("https://raw.githubusercontent.com/krypton-linux/Kryptinfo/main/kryptinfo.tar.gz")
 md5sums=('SKIP')
 
 build()
 {
-    curl -o Makefile https://raw.githubusercontent.com/Itsuki0222/Kryptinfo/main/Makefile
+    curl -o Makefile https://raw.githubusercontent.com/krypton-linux/Kryptinfo/main/Makefile
     make
 }
 
