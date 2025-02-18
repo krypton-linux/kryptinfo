@@ -15,7 +15,6 @@ md5sums=('SKIP')
 
 build()
 {
-    cd kryptinfo
     make
 }
 
