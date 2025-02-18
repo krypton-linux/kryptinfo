@@ -15,7 +15,7 @@ md5sums=('SKIP')
 
 build()
 {
-    curl -o Makefile https://raw.githubusercontent.com/krypton-linux/kryptinfo/main/Makefile
+    cd kryptinfo
     make
 }
 
