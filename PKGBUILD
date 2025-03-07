@@ -1,4 +1,4 @@
-# Maintainer: Itsuki Wada <175463719+Itsuki0222@users.noreply.github.com>
+# Maintainer: Itsuki Wada <krypton@f5.si>
 # Contributor: nekogakure < >
 
 pkgname=kryptinfo
